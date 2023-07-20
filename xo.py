@@ -39,7 +39,7 @@ class Solution:
       for char in string:
         if char == 'X':
           x += 1
-        else:
+        elif char == 'O':
           o += 1
       return x == o
                 
